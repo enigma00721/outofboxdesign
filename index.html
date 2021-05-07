@@ -698,45 +698,32 @@
     <script type="text/javascript">
 
         $(document).ready(function(){
-          // $(".owl-carousel").owlCarousel({
+          $(".owl-carousel").owlCarousel({
 
-          //       autoPlay: 3000, //Set AutoPlay to 3 seconds
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
             
-          //       items : 3,
-          //       //Basic Speeds
-          //          slideSpeed : 200,
-          //          paginationSpeed : 800,
-          //          rewindSpeed : 1000,
+                items : 3,
+                //Basic Speeds
+                   slideSpeed : 200,
+                   paginationSpeed : 800,
+                   rewindSpeed : 1000,
                 
-          //          loop:true,
-          //          margin:10,
-          //          // nav:true,
+                   loop:true,
+                   margin:10,
+                   // nav:true,
 
-          //           responsive:{
-          //           0:{
-          //               items:1
-          //           },
-          //           600:{
-          //               items:2
-          //           },
-          //           1000:{
-          //               items:3
-          //           }
-          //       }
-          //   });  //carousel end
-
-          var owl = $('.owl-carousel');
-          owl.owlCarousel();
-
-          // Listen to owl events:
-          owl.on('changed.owl.carousel', function(event) {
-                  // your code goes here...
-                  console.log('cu');
-                  owl.trigger('owl.next');
-            // owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
-
-
-          })
+                    responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+            });  //carousel end
 
 
         });//ready funcction end
