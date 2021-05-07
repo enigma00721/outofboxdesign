@@ -792,7 +792,7 @@ span.quot-name:before {
 .manage h2 {
     margin-bottom: 30px;
     text-align: center;
-    left: 390px;
+    /*left: 390px;*/
 }
 
 .manage_wrap {
@@ -835,6 +835,7 @@ h2 {
 #team .img-team {
     margin: -100px 0 0 0;
     padding: 0;
+    display: inline-block;
 }
 
 .img-circle {
